@@ -17,6 +17,8 @@ const regularUser = {
     }
 }
 
+console.log(regularUser["fullname"]["userfullname"]);
+
 // console.log(regularUser.fullname.userfullname.firstname);
 
 const obj1 = {1: "a", 2: "b"}
