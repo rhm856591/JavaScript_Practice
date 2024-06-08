@@ -2,13 +2,13 @@
 
 const date = new Date()
 
-// console.log(date);
-// console.log(date.toString()+ "\n");
-// console.log(date.toDateString()+ "\n");
-// console.log(date.toISOString()+ "\n");
-// console.log(date.toJSON()+ "\n");
-// console.log(date.toLocaleDateString()+ "\n");
-// console.log(date.toLocaleString() + "\n");
+console.log(date);
+console.log(date.toString()+ "\n");
+console.log(date.toDateString()+ "\n");
+console.log(date.toISOString()+ "\n");
+console.log(date.toJSON()+ "\n");
+console.log(date.toLocaleDateString()+ "\n");
+console.log(date.toLocaleString() + "\n");
 
 let myCreatedDate = new Date(2024, 0, 4)
 console.log(myCreatedDate.toDateString());
