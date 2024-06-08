@@ -81,3 +81,16 @@ console.log(instructor);
     {},
     {}
 ]
+
+// destructure of object
+
+const course1 = {
+    company: "Rahamtullah",
+    price: "1999",
+    teacher: "Sheikh"
+}
+
+console.log(course1.company);
+
+const {company, price, teacher} = course1
+console.log(company, price, teacher);
