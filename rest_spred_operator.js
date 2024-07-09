@@ -13,6 +13,7 @@ let A2 = [5,6,7];
 
 function sum(...num){
     return num.reduce((total,sum) => (total += sum),0)
+    // console.log(num);
 }
 
 // let allSum = sum(...A1, ...A2);
